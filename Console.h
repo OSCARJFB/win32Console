@@ -20,7 +20,7 @@ public:
 public:
 	void ClearScreen() const;
 	CHAR ReadKey();
-	void SetConsoleColor(WORD wColor);
+	void SetConsoleColor(WORD wColor = true);
 
 public:	
 	template <typename T>
